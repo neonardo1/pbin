@@ -24,7 +24,7 @@ set -e
 PROGRAM=${0##*/}
 
 # can be overriden from env
-: ${PASTE_URL='http://paste.mate-desktop.org/api/create'}
+: ${PASTE_URL='https://paste.privatesystems.net/api/create'}
 #: ${PASTE_APIKEY='apikey'}
 
 # paste. take input from stdin
